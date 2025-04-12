@@ -1,0 +1,6 @@
+atproto
+python-dotenv
+transformers
+emoji
+pandas
+nltk
