@@ -4,3 +4,5 @@ transformers
 emoji
 pandas
 nltk
+psycopg2
+torch

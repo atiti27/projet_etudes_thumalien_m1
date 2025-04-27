@@ -4,6 +4,7 @@ import dotenv
 import pandas as pd
 
 from extract_data import extract_comment_from_post, extract_data_from_post
+from db import get_engine
 
 dotenv.load_dotenv()
 
@@ -36,6 +37,8 @@ except Exception as e:
 df_posts = pd.DataFrame(columns=["id", "title", "content", "author", "publi_date", "link", "nbr_like", "nbr_comment", "nbr_repost", "hashtags"])
 # Mettre la logique de récupération de l'id du post depuis la BDD (à faire plus tard)
 post_id = 0
+
+
 for post in feed:
     obj_post = extract_data_from_post(post, client)
     if obj_post is None:
@@ -54,5 +57,12 @@ for post in feed:
     # Dans cette boucle, insérer les données des commentaires dans la base de données (faire fonction)
 
 # À la fin de la boucle for, insérer les données des posts dans la base de données (faire fonction)
+    
 
+    
+engine = get_engine()
 
+# Insérer les DataFrames dans la base de données
+df_posts["comments"] = df_posts["comments"].apply(lambda x: str(x) if isinstance(x, list) else x)
+df_posts.to_sql("posts", engine, if_exists="append", index=False)
+df_comments.to_sql("comments", engine, if_exists="append", index=False)
