@@ -1,6 +1,6 @@
 import re
-
-from clean_data import filter_by_language, filter_short_text, normalize_data
+import spacy
+from clean_data import filter_by_language, filter_short_text, normalize_data, lemmatization_text
 
 
 # Function to clean text
@@ -23,8 +23,8 @@ def extract_data_from_post(post, client):
     isLong = filter_short_text(content)
     if not isLong:
         return None
-    clean_content = normalize_data(content)
-
+    normalize = normalize_data(content)
+    clean_content = lemmatization_text(normalize)
     author = post_details.author.display_name
     publi_date = record.created_at
     comments = res_post.thread.replies

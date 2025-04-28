@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 import re
 import emoji
+import spacy
 
 # Fonction utile pour notre cas où dans une première version, nous ne traitons que les tweets en français
 def filter_by_language(text, confidence_threshold=0.8):
@@ -49,8 +50,16 @@ def normalize_data(brut_text):
 
     clean_text = " ".join(words)
 
-    print(f"Cleaned text: {clean_text}")
+    print(f"Cleaned text normalize_data: {clean_text}")
 
+    return clean_text
+
+def lemmatization_text(text):
+    nlp = spacy.load('fr_core_news_sm')
+    doc = nlp(text)
+    tokens = [token.lemma_ for token in doc if not token.is_stop]
+    clean_text = " ".join(tokens)
+    print(f"Cleaned text lemmatization_text: {clean_text}")
     return clean_text
 
 if __name__ == "__main__":
