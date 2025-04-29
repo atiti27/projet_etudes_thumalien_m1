@@ -1,6 +1,10 @@
 import os
 import dotenv
+import os
+import dotenv
 from sqlalchemy import create_engine
+
+dotenv.load_dotenv()
 
 dotenv.load_dotenv()
 
@@ -12,7 +16,7 @@ def get_engine():
     database = os.getenv("PGDATABASE")
     
     url = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
-    
+
     return create_engine(url)
 
 
