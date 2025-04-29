@@ -1,7 +1,5 @@
 from db import get_engine
 
-
-
 engine = get_engine()
 
 try:
