@@ -1,5 +1,7 @@
 venv/
 .env
+.env.local
 .venv/
 __pycache__/
 venv-thumalien/
+.vscode/
