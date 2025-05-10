@@ -7,3 +7,4 @@ nltk
 psycopg2
 torch
 sqlalchemy
+deep-translator

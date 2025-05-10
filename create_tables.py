@@ -29,5 +29,29 @@ comments = Table("comments", metadata,
     Column("nbr_repost", Integer),
 )
 
-metadata.create_all(engine)
-print("Tables créées avec succès.")
+emotional_analysis_bert = Table("emotional_analysis_bert", metadata,
+    Column("id", Integer, primary_key=True),
+    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE")),
+    Column("anger", Integer, default=0),
+    Column("joy", Integer, default=0),
+    Column("love", Integer, default=0),
+    Column("sadness", Integer, default=0),
+    Column("fear", Integer, default=0),
+    Column("surprise", Integer, default=0),
+)
+
+emotional_analysis_roberta = Table("emotional_analysis_roberta", metadata,
+    Column("id", Integer, primary_key=True),
+    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE")),
+    Column("disgust", Integer, default=0),
+    Column("sadness", Integer, default=0),
+    Column("fear", Integer, default=0),
+    Column("anger", Integer, default=0),
+    Column("neutral", Integer, default=0),
+    Column("surprise", Integer, default=0),
+    Column("joy", Integer, default=0),
+)
+
+if __name__ == "__main__":
+    metadata.create_all(engine)
+    print("Tables créées avec succès.")
