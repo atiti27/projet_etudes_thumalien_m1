@@ -1,32 +1,34 @@
-from sqlalchemy import Table, Column, Integer, Text, TIMESTAMP, MetaData, ForeignKey
+from sqlalchemy import Table, Column, Integer, Text, TIMESTAMP, MetaData, ForeignKey, String, DateTime
 from db import get_engine
 
 engine = get_engine()
 metadata = MetaData()
 
-posts = Table("posts", metadata,
-    Column("id", Integer, primary_key=True),
-    Column("title", Text),
-    Column("content", Text),
-    Column("author", Text),
-    Column("publi_date", TIMESTAMP),
-    Column("link", Text, unique=True),
-    Column("nbr_like", Integer),
-    Column("nbr_comment", Integer),
-    Column("nbr_repost", Integer),
-    Column("hashtags", Text),
+posts_table = Table(
+    'posts', metadata,
+    Column('id', Integer, primary_key=True, autoincrement=True),
+    Column('title', Text),
+    Column('content', Text),
+    Column('author', String(255)),
+    Column('publi_date', DateTime),
+    Column('link', String(255), unique=True), 
+    Column('nbr_like', Integer),
+    Column('nbr_comment', Integer),
+    Column('nbr_repost', Integer),
+    Column('hashtags', Text),
 )
 
-comments = Table("comments", metadata,
-    Column("id", Integer, primary_key=True),
-    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE")),
-    Column("content", Text),
-    Column("author", Text),
-    Column("publi_date", TIMESTAMP),
-    Column("link", Text, unique=True),
-    Column("nbr_like", Integer),
-    Column("nbr_comment", Integer),
-    Column("nbr_repost", Integer),
+comments_table = Table(
+    'comments', metadata,
+    Column('id', Integer, primary_key=True, autoincrement=True),
+    Column('post_id', Integer),
+    Column('content', Text),
+    Column('author', String(255)),
+    Column('publi_date', DateTime),
+    Column('link', String(255), unique=True),
+    Column('nbr_like', Integer),
+    Column('nbr_comment', Integer),
+    Column('nbr_repost', Integer),
 )
 
 emotional_analysis_bert = Table("emotional_analysis_bert", metadata,
