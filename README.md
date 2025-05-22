@@ -13,11 +13,14 @@ Ce guide utilisateur vous accompagnera tout au long du projet, en fournissant de
 ### Installation
 
 Pour lancer le projet, assurer vous d'être à la racine du projet `projet_etudes_thumalien`. Il faut avant tout installer les packages correspondants. Nous avons déjà mis à disposition les librairies requises dans le fichier `requirements.txt`. Pour leurs installations, il suffit de lancer la commande suivante:
+
 ```
 pip install -r requirements.txt
 ```
 
 D'autres librairies sont dépendantes de celles listées dans le fichier `requirements.txt`. Si vous n'avez pas PyTorch, installez le avec la commande suivante (pour Windows)
+
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+python -m spacy download fr_core_news_sm
 ```

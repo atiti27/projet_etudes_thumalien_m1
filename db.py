@@ -1,10 +1,6 @@
 import os
 import dotenv
-import os
-import dotenv
 from sqlalchemy import create_engine
-
-dotenv.load_dotenv()
 
 dotenv.load_dotenv()
 
@@ -22,8 +18,11 @@ def get_engine():
 
 engine = get_engine()
 
-try:
-    with engine.connect() as connection:
-        print("Connexion réussie à la base de données !")
-except Exception as e:
-    print(f"Erreur de connexion ou de création de tables: {e}")
+
+
+if __name__ == "__main__":
+    try:
+        with engine.connect() as connection:
+            print("Connexion réussie à la base de données !")
+    except Exception as e:
+        print(f"Erreur de connexion ou de création de tables: {e}")
