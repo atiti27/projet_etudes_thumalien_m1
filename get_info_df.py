@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+def transform_into_df(data, columns):
+    return pd.DataFrame(data, columns=columns)
+
 def get_info_df(df):
     pd.set_option('display.max_columns', None)
     print("Dimensions du DataFrame :", df.shape)
