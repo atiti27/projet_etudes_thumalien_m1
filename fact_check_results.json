@@ -1,0 +1,112 @@
+[
+    {
+        "post_id": 1,
+        "title": "Les élections présidentielles approchent en France",
+        "result": {
+            "claim_text": "100% des appareils de vote électronique ont donné Macron vainqueur",
+            "source_title": "Non, Emmanuel Macron n'est pas arrivé en tête sur \"100% des ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.32937HT",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
+        }
+    },
+    {
+        "post_id": 2,
+        "title": "La crise énergétique impacte les marchés européens",
+        "result": {
+            "claim_text": "EDF cèderait gratuitement 4,5% de sa production à l'Allemagne",
+            "source_title": "Attention à ces messages infondés assurant qu'EDF \"cède ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.364Z8DX",
+            "source_excerpt": "Partiellement faux",
+            "source_site": "AFP Factuel"
+        }
+    },
+    {
+        "post_id": 3,
+        "title": "Nouvelles avancées dans la lutte contre le cancer",
+        "result": {
+            "claim_text": "L'ivermectine est un traitement contre le cancer.",
+            "source_title": "Non, l'ivermectine n'est à ce jour pas considéré comme un ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.37UD7T2",
+            "source_excerpt": "Trompeur",
+            "source_site": "AFP Factuel"
+        }
+    },
+    {
+        "post_id": 4,
+        "title": "Les innovations technologiques en 2025",
+        "result": {
+            "claim_text": "L'euro numérique arrive en octobre 2025, ce sera la fin du liquide",
+            "source_title": "Non, l'euro numérique ne viendra pas remplacer l'argent liquide en ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.37949ZQ",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
+        }
+    },
+    {
+        "post_id": 5,
+        "title": "Le changement climatique et ses effets sur la biodiversité",
+        "result": {
+            "claim_text": "A cause du changement climatique, les oiseaux ne migrent plus",
+            "source_title": "Est-il vrai que \"les oiseaux ne migrent plus\" à cause du changement ...",
+            "source_link": "https://www.tf1info.fr/environnement-ecologie/la-migration-des-oiseaux-perturbee-par-le-changement-climatique-2236774.html",
+            "source_excerpt": "En partie vrai",
+            "source_site": "TF1 Info"
+        }
+    },
+    {
+        "post_id": 6,
+        "title": "L'impact économique du télétravail",
+        "result": {
+            "claim_text": "Acheter sur Amazon est plus écolo que faire du shopping",
+            "source_title": "VÉRIF' - Acheter sur Amazon est-il \"plus écolo\" que d'aller faire du ...",
+            "source_link": "https://www.tf1info.fr/environnement-ecologie/verif-acheter-sur-amazon-est-il-plus-ecolo-que-d-aller-faire-du-shopping-2369024.html",
+            "source_excerpt": "Plutôt vrai",
+            "source_site": "TF1 Info"
+        }
+    },
+    {
+        "post_id": 7,
+        "title": "La réforme des retraites suscite des débats",
+        "result": {
+            "claim_text": "Le régime de retraite du public aurait un \"déficit caché\"",
+            "source_title": "Retraites : le régime de la fonction publique est-il en déficit ?",
+            "source_link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/retraites-le-regime-de-la-fonction-publique-est-il-en-deficit_7108260.html",
+            "source_excerpt": "Plutôt Faux",
+            "source_site": "Franceinfo"
+        }
+    },
+    {
+        "post_id": 8,
+        "title": "La croissance du marché des véhicules électriques",
+        "result": {
+            "claim_text": "Les voitures électriques polluent 1.850 fois plus que les véhicules à carburant, selon une étude",
+            "source_title": "Non, une \"étude\" n'a pas conclu que les voitures électriques ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.34MQ9LK",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
+        }
+    },
+    {
+        "post_id": 9,
+        "title": "Les derniers résultats du tournoi de tennis",
+        "result": {
+            "claim_text": "Nikolos Basilashvili,Dalila Jakupovic et Nick Kyrgios ont abandonné l'Open d'Australie suite à des problèmes respiratoires liés au vaccin contre le Covid-19.",
+            "source_title": "Open d'Australie : Trois joueurs ont-ils abandonné le tournoi en ...",
+            "source_link": "https://www.20minutes.fr/sport/3219115-20220120-open-australie-trois-joueurs-abandonne-tournoi-raison-problemes-respiratoires-faux",
+            "source_excerpt": "Faux",
+            "source_site": "20 Minutes"
+        }
+    },
+    {
+        "post_id": 10,
+        "title": "Le rôle des réseaux sociaux dans la politique",
+        "result": {
+            "claim_text": "Le gouvernement peut-il vraiment empêcher l'utilisation des téléphones avant 11 ans ? Peut-il aussi interdire l'accès aux réseaux sociaux avant 15 ans ?",
+            "source_title": "VRAI OU FAUX. Le gouvernement peut-il interdire l'utilisation des ...",
+            "source_link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/vrai-ou-faux-le-gouvernement-peut-il-interdire-l-utilisation-des-telephones-avant-11-ans-et-l-acces-aux-reseaux-sociaux-avant-15-ans_6573365.html",
+            "source_excerpt": "C’est plus compliqué",
+            "source_site": "Franceinfo"
+        }
+    }
+]
