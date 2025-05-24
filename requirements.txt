@@ -9,3 +9,5 @@ torch
 sqlalchemy
 deep-translator
 spacy
+matplotlib
+seaborn

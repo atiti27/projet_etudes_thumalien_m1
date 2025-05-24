@@ -65,4 +65,5 @@ def lemmatization_text(text):
 if __name__ == "__main__":
     text = "Hello ❤️. https://www.example.com @user #coucou c'est tout pour moi je suis élégante."
     normalized_text = normalize_data(text)
-    print(f"Texte normalisé : {normalized_text}")
+    lemmatized_text = lemmatization_text(normalized_text)
+    print(f"Texte normalisé : {lemmatized_text}")
