@@ -3,372 +3,110 @@
         "post_id": 1,
         "title": "Les élections présidentielles approchent en France",
         "result": {
-            "source_title": "À l'approche de l'élection présidentielle, Paris craint toujours plus les ingérences en ligne",
-            "source_link": "https://www.humanite.fr/politique/commission-europeenne/a-lapproche-de-lelection-presidentielle-paris-craint-toujours-plus-les-ingerences-en-ligne",
-            "source_excerpt": null,
-            "source_date": "05/20/2025, 03:54 PM, +0000 UTC",
-            "source_author": {
-                "name": "L'Humanité",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.humanite.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "L'Humanité",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.humanite.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "100% des appareils de vote électronique ont donné Macron vainqueur",
+            "source_title": "Non, Emmanuel Macron n'est pas arrivé en tête sur \"100% des ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.32937HT",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
         }
     },
     {
         "post_id": 2,
         "title": "La crise énergétique impacte les marchés européens",
         "result": {
-            "source_title": "Action de l’UE pour faire face à la crise énergétique",
-            "source_link": "https://commission.europa.eu/topics/energy/eu-action-address-energy-crisis_fr",
-            "source_excerpt": null,
-            "source_date": "04/05/2025, 02:31 PM, +0000 UTC",
-            "source_author": {
-                "name": "European Commission",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://commission.europa.eu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "European Commission",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://commission.europa.eu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "EDF cèderait gratuitement 4,5% de sa production à l'Allemagne",
+            "source_title": "Attention à ces messages infondés assurant qu'EDF \"cède ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.364Z8DX",
+            "source_excerpt": "Partiellement faux",
+            "source_site": "AFP Factuel"
         }
     },
     {
         "post_id": 3,
         "title": "Nouvelles avancées dans la lutte contre le cancer",
         "result": {
-            "source_title": "Une nouvelle classe de molécules contre les cellules cancéreuses réfractaires aux traitements conventionnels",
-            "source_link": "https://www.cnrs.fr/fr/presse/une-nouvelle-classe-de-molecules-contre-les-cellules-cancereuses-refractaires-aux",
-            "source_excerpt": null,
-            "source_date": "05/07/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Centre national de la recherche scientifique (CNRS)",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.cnrs.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Centre national de la recherche scientifique (CNRS)",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.cnrs.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "L'ivermectine est un traitement contre le cancer.",
+            "source_title": "Non, l'ivermectine n'est à ce jour pas considéré comme un ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.37UD7T2",
+            "source_excerpt": "Trompeur",
+            "source_site": "AFP Factuel"
         }
     },
     {
         "post_id": 4,
         "title": "Les innovations technologiques en 2025",
         "result": {
-            "source_title": "Nouvelles technologies révolutionnaires à Computex 2025",
-            "source_link": "https://lesnews.ca/tech/nouvelles-technologies-revolutionnaires-a-computex-2025/",
-            "source_excerpt": null,
-            "source_date": "05/24/2025, 06:35 AM, +0000 UTC",
-            "source_author": {
-                "name": "LesNews",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://lesnews.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "LesNews",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://lesnews.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "L'euro numérique arrive en octobre 2025, ce sera la fin du liquide",
+            "source_title": "Non, l'euro numérique ne viendra pas remplacer l'argent liquide en ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.37949ZQ",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
         }
     },
     {
         "post_id": 5,
         "title": "Le changement climatique et ses effets sur la biodiversité",
         "result": {
-            "source_title": "Impacts du changement climatique : Eau et Biodiversité",
-            "source_link": "https://www.ecologie.gouv.fr/politiques-publiques/impacts-du-changement-climatique-eau-biodiversite",
-            "source_excerpt": null,
-            "source_date": "02/12/2025, 08:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Ministères Aménagement du territoire Transition écologique",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.ecologie.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Ministères Aménagement du territoire Transition écologique",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.ecologie.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "A cause du changement climatique, les oiseaux ne migrent plus",
+            "source_title": "Est-il vrai que \"les oiseaux ne migrent plus\" à cause du changement ...",
+            "source_link": "https://www.tf1info.fr/environnement-ecologie/la-migration-des-oiseaux-perturbee-par-le-changement-climatique-2236774.html",
+            "source_excerpt": "En partie vrai",
+            "source_site": "TF1 Info"
         }
     },
     {
         "post_id": 6,
         "title": "L'impact économique du télétravail",
         "result": {
-            "source_title": "Le télétravail, facteur de productivité",
-            "source_link": "https://www.imf.org/fr/Publications/fandd/issues/2024/09/working-from-home-is-powering-productivity-bloom",
-            "source_excerpt": null,
-            "source_date": "09/18/2024, 09:28 PM, +0000 UTC",
-            "source_author": {
-                "name": "International Monetary Fund",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.imf.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "International Monetary Fund",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.imf.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "Acheter sur Amazon est plus écolo que faire du shopping",
+            "source_title": "VÉRIF' - Acheter sur Amazon est-il \"plus écolo\" que d'aller faire du ...",
+            "source_link": "https://www.tf1info.fr/environnement-ecologie/verif-acheter-sur-amazon-est-il-plus-ecolo-que-d-aller-faire-du-shopping-2369024.html",
+            "source_excerpt": "Plutôt vrai",
+            "source_site": "TF1 Info"
         }
     },
     {
         "post_id": 7,
         "title": "La réforme des retraites suscite des débats",
         "result": {
-            "source_title": "Réforme des retraites : que cache le débat autour des 64 ans ?",
-            "source_link": "https://www.socialmag.news/26/03/2025/reforme-des-retraites-que-cache-le-debat-autour-des-64-ans/",
-            "source_excerpt": null,
-            "source_date": "03/26/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Social Mag",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.socialmag.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Social Mag",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.socialmag.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "Le régime de retraite du public aurait un \"déficit caché\"",
+            "source_title": "Retraites : le régime de la fonction publique est-il en déficit ?",
+            "source_link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/retraites-le-regime-de-la-fonction-publique-est-il-en-deficit_7108260.html",
+            "source_excerpt": "Plutôt Faux",
+            "source_site": "Franceinfo"
         }
     },
     {
         "post_id": 8,
         "title": "La croissance du marché des véhicules électriques",
         "result": {
-            "source_title": "Croissance mondiale, stagnation européenne : où en est le marché des véhicules électriques ?",
-            "source_link": "https://www.la-croix.com/economie/croissance-mondiale-stagnation-europeenne-ou-en-est-le-marche-des-vehicules-electriques-20250514",
-            "source_excerpt": null,
-            "source_date": "05/14/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "La Croix",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.la-croix.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-                "authors": [
-                    "Nils Lepretre"
-                ]
-            },
-            "source_site": {
-                "name": "La Croix",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.la-croix.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-                "authors": [
-                    "Nils Lepretre"
-                ]
-            }
+            "claim_text": "Les voitures électriques polluent 1.850 fois plus que les véhicules à carburant, selon une étude",
+            "source_title": "Non, une \"étude\" n'a pas conclu que les voitures électriques ...",
+            "source_link": "https://factuel.afp.com/doc.afp.com.34MQ9LK",
+            "source_excerpt": "Faux",
+            "source_site": "AFP Factuel"
         }
     },
     {
         "post_id": 9,
         "title": "Les derniers résultats du tournoi de tennis",
         "result": {
-            "source_title": "Tennis de table : calendrier, tournoi, résultats et toute l’actualité en direct",
-            "source_link": "https://www.ouest-france.fr/sport/tennis-de-table/",
-            "source_excerpt": null,
-            "source_date": "05/22/2025, 02:10 PM, +0000 UTC",
-            "source_author": {
-                "name": "Ouest-France",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ouest-france.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Ouest-France",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ouest-france.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "Nikolos Basilashvili,Dalila Jakupovic et Nick Kyrgios ont abandonné l'Open d'Australie suite à des problèmes respiratoires liés au vaccin contre le Covid-19.",
+            "source_title": "Open d'Australie : Trois joueurs ont-ils abandonné le tournoi en ...",
+            "source_link": "https://www.20minutes.fr/sport/3219115-20220120-open-australie-trois-joueurs-abandonne-tournoi-raison-problemes-respiratoires-faux",
+            "source_excerpt": "Faux",
+            "source_site": "20 Minutes"
         }
     },
     {
         "post_id": 10,
         "title": "Le rôle des réseaux sociaux dans la politique",
         "result": {
-            "source_title": "« Les réseaux sociaux sont une arme politique de destruction massive »",
-            "source_link": "https://www.lemonde.fr/idees/article/2024/08/01/les-reseaux-sociaux-sont-une-arme-politique-de-destruction-massive_6263704_3232.html",
-            "source_excerpt": null,
-            "source_date": "08/01/2024, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Le Monde.fr",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lemonde.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Le Monde.fr",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lemonde.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 11,
-        "title": "Les tendances mode printemps-été 2025",
-        "result": {
-            "source_title": "Les 15 tendances mode de l'été 2025",
-            "source_link": "https://www.vogue.fr/galerie/tendances-mode-printemps-ete-2025",
-            "source_excerpt": null,
-            "source_date": "05/14/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Vogue France",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vogue.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-                "authors": [
-                    "Heloise Salessy"
-                ]
-            },
-            "source_site": {
-                "name": "Vogue France",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vogue.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-                "authors": [
-                    "Heloise Salessy"
-                ]
-            }
-        }
-    },
-    {
-        "post_id": 12,
-        "title": "L'importance de la cybersécurité dans les entreprises",
-        "result": {
-            "source_title": "Cybersécurité en entreprise : définition, enjeux et perspectives",
-            "source_link": "https://bigmedia.bpifrance.fr/nos-dossiers/cybersecurite-en-entreprise-definition-enjeux-et-perspectives",
-            "source_excerpt": null,
-            "source_date": "01/21/2025, 08:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Bpifrance",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Bpifrance",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 13,
-        "title": "Les avancées en intelligence artificielle",
-        "result": {
-            "source_title": "L’intelligence artificielle, un outil d’évolution pour les industries du futur",
-            "source_link": "https://www.techniques-ingenieur.fr/actualite/articles/l-intelligence-artificielle-un-outil-d-evolution-pour-les-industries-4-0-146043/",
-            "source_excerpt": null,
-            "source_date": "05/22/2025, 06:34 AM, +0000 UTC",
-            "source_author": {
-                "name": "Techniques de l'Ingénieur",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techniques-ingenieur.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Techniques de l'Ingénieur",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techniques-ingenieur.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 14,
-        "title": "La protection des données personnelles",
-        "result": {
-            "source_title": "Politique de protection des données",
-            "source_link": "https://www.chu-toulouse.fr/politique-de-protection-des-donnees",
-            "source_excerpt": null,
-            "source_date": "05/19/2025, 05:53 PM, +0000 UTC",
-            "source_author": {
-                "name": "chu-toulouse.fr",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.chu-toulouse.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "chu-toulouse.fr",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.chu-toulouse.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 15,
-        "title": "Les défis du secteur agricole face au climat",
-        "result": {
-            "source_title": "COP29: les défis du secteur agricole face au changement climatique",
-            "source_link": "https://www.rfi.fr/fr/environnement/20241119-cop29-les-d%C3%A9fis-du-secteur-agricole-face-au-changement-climatique",
-            "source_excerpt": null,
-            "source_date": "11/19/2024, 08:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "RFI",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rfi.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "RFI",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rfi.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 16,
-        "title": "Les manifestations pour la justice sociale",
-        "result": {
-            "source_title": "Journée inter­na­tio­nale du 1",
-            "source_link": "https://www.placegrenet.fr/2025/04/28/journee-internationale-du-1er-mai-des-appels-a-manifester-en-isere-pour-la-paix-et-la-justice-sociale/651706",
-            "source_excerpt": null,
-            "source_date": "04/28/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Place Gre'net",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.placegrenet.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Place Gre'net",
-                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.placegrenet.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 17,
-        "title": "Les innovations dans l'industrie spatiale",
-        "result": {
-            "source_title": "L'innovation dans le spatial",
-            "source_link": "https://www.f-initiatives.com/sector/spatial/",
-            "source_excerpt": null,
-            "source_date": "11/02/2024, 10:14 AM, +0000 UTC",
-            "source_author": {
-                "name": "F.initiatives",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.f-initiatives.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "F.initiatives",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.f-initiatives.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 18,
-        "title": "Le développement des énergies renouvelables",
-        "result": {
-            "source_title": "Zones d'accélération des énergies renouvelables // calendrier et ressources",
-            "source_link": "https://www.morbihan.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-et-developpement-local-construction-logement-et-paysages/Planification-energetique/Zones-d-acceleration-des-energies-renouvelables-calendrier-et-ressources",
-            "source_excerpt": null,
-            "source_date": "05/16/2025, 05:03 AM, +0000 UTC",
-            "source_author": {
-                "name": "morbihan.gouv.fr",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.morbihan.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "morbihan.gouv.fr",
-                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.morbihan.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 19,
-        "title": "La réforme de l'éducation nationale",
-        "result": {
-            "source_title": "Réforme de la formation initiale des professeurs : dossier de présentation",
-            "source_link": "https://www.education.gouv.fr/reforme-de-la-formation-initiale-des-professeurs-dossier-de-presentation-450115",
-            "source_excerpt": null,
-            "source_date": "03/28/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Education.gouv.fr",
-                "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.education.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Education.gouv.fr",
-                "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.education.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
-        }
-    },
-    {
-        "post_id": 20,
-        "title": "Les avancées médicales contre les maladies neurodégénératives",
-        "result": {
-            "source_title": "Nanotechnologie et traitement des maladies neurodégénératives",
-            "source_link": "https://bigmedia.bpifrance.fr/nos-dossiers/nanotechnologie-et-traitement-des-maladies-neurodegeneratives",
-            "source_excerpt": null,
-            "source_date": "03/18/2025, 07:00 AM, +0000 UTC",
-            "source_author": {
-                "name": "Bpifrance",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            },
-            "source_site": {
-                "name": "Bpifrance",
-                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
-            }
+            "claim_text": "Le gouvernement peut-il vraiment empêcher l'utilisation des téléphones avant 11 ans ? Peut-il aussi interdire l'accès aux réseaux sociaux avant 15 ans ?",
+            "source_title": "VRAI OU FAUX. Le gouvernement peut-il interdire l'utilisation des ...",
+            "source_link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/vrai-ou-faux-le-gouvernement-peut-il-interdire-l-utilisation-des-telephones-avant-11-ans-et-l-acces-aux-reseaux-sociaux-avant-15-ans_6573365.html",
+            "source_excerpt": "C’est plus compliqué",
+            "source_site": "Franceinfo"
         }
     }
 ]

@@ -2,12 +2,11 @@ import os
 import re
 import requests
 import json
-from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# Extracts significant keywords from a given text
+# Extract keywords by filtering out common French stopwords
 def extract_keywords(text):
     stop_words = {
         "le", "la", "les", "de", "des", "du", "un", "une", "et", "à", "dans", "sur", 
@@ -17,40 +16,33 @@ def extract_keywords(text):
     keywords = [w for w in words if w not in stop_words and len(w) > 2]
     return keywords
 
-# Builds a query from keywords using AND or OR logic
+# Builds query from keyword list
 def build_query(keywords, use_or=False):
-    op = " OR " if use_or else " AND "
+    op = " " if not use_or else " OR "
     return op.join(keywords)
 
-# Searches a relevant news article from Google News via SerpAPI
+# Searches Google Fact Check Tools API for existing claims
 def search_fact_source_flexible(title):
     keywords = extract_keywords(title)
-    if not keywords:
-        queries = [title]
-    else:
-        queries = [build_query(keywords, use_or=False), build_query(keywords, use_or=True)]
+    queries = [title] if not keywords else [build_query(keywords, use_or=False), build_query(keywords, use_or=True)]
 
     for q in queries:
-        url = "https://serpapi.com/search"
+        url = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
         params = {
-            'q': q,
-            'api_key': os.getenv("SERPAPI_KEY"),
-            'engine': 'google_news',
-            'hl': 'fr',
-            'gl': 'fr',
-            'num': 1
+            'query': q,
+            'languageCode': 'fr',
+            'key': os.getenv("FACTCHECK_API_KEY")
         }
         response = requests.get(url, params=params)
         if response.status_code == 200:
-            data = response.json()
-            articles = data.get("news_results", [])
-            if articles:
-                return articles[0]
+            claims = response.json().get("claims", [])
+            if claims:
+                return claims[0]  # Return the first matching claim
         else:
-            print(f"API error for query '{q}': {response.status_code}")
+            print(f"Erreur API pour la requête '{q}' : {response.status_code}")
     return None
 
-# Main logic: simulates posts and performs fact-checking using the search function
+# Main function: simulate posts and verify them using fact-check API
 def main():
     simulated_posts = [
         {"id": 1, "title": "Les élections présidentielles approchent en France"},
@@ -62,43 +54,33 @@ def main():
         {"id": 7, "title": "La réforme des retraites suscite des débats"},
         {"id": 8, "title": "La croissance du marché des véhicules électriques"},
         {"id": 9, "title": "Les derniers résultats du tournoi de tennis"},
-        {"id": 10, "title": "Le rôle des réseaux sociaux dans la politique"},
-        {"id": 11, "title": "Les tendances mode printemps-été 2025"},
-        {"id": 12, "title": "L'importance de la cybersécurité dans les entreprises"},
-        {"id": 13, "title": "Les avancées en intelligence artificielle"},
-        {"id": 14, "title": "La protection des données personnelles"},
-        {"id": 15, "title": "Les défis du secteur agricole face au climat"},
-        {"id": 16, "title": "Les manifestations pour la justice sociale"},
-        {"id": 17, "title": "Les innovations dans l'industrie spatiale"},
-        {"id": 18, "title": "Le développement des énergies renouvelables"},
-        {"id": 19, "title": "La réforme de l'éducation nationale"},
-        {"id": 20, "title": "Les avancées médicales contre les maladies neurodégénératives"}
+        {"id": 10, "title": "Le rôle des réseaux sociaux dans la politique"}
     ]
 
     fact_check_data = []
 
     for post in simulated_posts:
-        article = search_fact_source_flexible(post["title"])
+        claim = search_fact_source_flexible(post["title"])
 
-        if article is None:
-            print(f"Aucun article trouvé pour : '{post['title']}'")
+        if claim is None:
+            print(f"Aucune vérification trouvée pour : '{post['title']}'")
             fact_check_data.append({
                 "post_id": post["id"],
                 "title": post["title"],
                 "result": None,
-                "message": "Aucun article trouvé pour ce titre."
+                "message": "Aucune vérification trouvée pour ce titre."
             })
         else:
+            review = claim.get("claimReview", [{}])[0]
             fact_check_data.append({
                 "post_id": post["id"],
                 "title": post["title"],
                 "result": {
-                    "source_title": article.get("title"),
-                    "source_link": article.get("link"),
-                    "source_excerpt": article.get("snippet"),
-                    "source_date": article.get("date"),
-                    "source_author": article.get("source"),
-                    "source_site": article.get("source")
+                    "claim_text": claim.get("text"),
+                    "source_title": review.get("title"),
+                    "source_link": review.get("url"),
+                    "source_excerpt": review.get("textualRating"),
+                    "source_site": review.get("publisher", {}).get("name")
                 }
             })
 
