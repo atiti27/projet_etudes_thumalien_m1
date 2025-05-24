@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Extracts significant keywords from a given text
 def extract_keywords(text):
     stop_words = {
         "le", "la", "les", "de", "des", "du", "un", "une", "et", "à", "dans", "sur", 
@@ -16,10 +17,12 @@ def extract_keywords(text):
     keywords = [w for w in words if w not in stop_words and len(w) > 2]
     return keywords
 
+# Builds a query from keywords using AND or OR logic
 def build_query(keywords, use_or=False):
     op = " OR " if use_or else " AND "
     return op.join(keywords)
 
+# Searches a relevant news article from Google News via SerpAPI
 def search_fact_source_flexible(title):
     keywords = extract_keywords(title)
     if not keywords:
@@ -28,23 +31,26 @@ def search_fact_source_flexible(title):
         queries = [build_query(keywords, use_or=False), build_query(keywords, use_or=True)]
 
     for q in queries:
-        url = "https://newsapi.org/v2/everything"
+        url = "https://serpapi.com/search"
         params = {
             'q': q,
-            'apiKey': os.getenv("NEWSAPI_KEY"),
-            'language': 'fr',
-            'pageSize': 1,
-            'sortBy': 'relevancy'
+            'api_key': os.getenv("SERPAPI_KEY"),
+            'engine': 'google_news',
+            'hl': 'fr',
+            'gl': 'fr',
+            'num': 1
         }
         response = requests.get(url, params=params)
         if response.status_code == 200:
-            articles = response.json().get('articles', [])
+            data = response.json()
+            articles = data.get("news_results", [])
             if articles:
                 return articles[0]
         else:
             print(f"API error for query '{q}': {response.status_code}")
     return None
 
+# Main logic: simulates posts and performs fact-checking using the search function
 def main():
     simulated_posts = [
         {"id": 1, "title": "Les élections présidentielles approchent en France"},
@@ -88,11 +94,11 @@ def main():
                 "title": post["title"],
                 "result": {
                     "source_title": article.get("title"),
-                    "source_link": article.get("url"),
-                    "source_excerpt": article.get("description"),
-                    "source_date": datetime.strptime(article.get("publishedAt"), "%Y-%m-%dT%H:%M:%SZ").isoformat() if article.get("publishedAt") else None,
-                    "source_author": article.get("author"),
-                    "source_site": article.get("source", {}).get("name")
+                    "source_link": article.get("link"),
+                    "source_excerpt": article.get("snippet"),
+                    "source_date": article.get("date"),
+                    "source_author": article.get("source"),
+                    "source_site": article.get("source")
                 }
             })
 

@@ -3,240 +3,372 @@
         "post_id": 1,
         "title": "Les élections présidentielles approchent en France",
         "result": {
-            "source_title": "A Faches-Thumesnil, le maire LFI Patrick Proisy artisan d’un Nouveau Front populaire local",
-            "source_link": "https://www.lemonde.fr/politique/article/2025/05/10/a-faches-thumesnil-le-maire-lfi-patrick-proisy-artisan-d-un-nouveau-front-populaire-local_6604714_823448.html",
-            "source_excerpt": "A un an des élections municipales de 2026, Patrick Proisy, maire de la plus grande commune dirigée par le parti mélenchoniste, envisage de briguer un deuxième mandat avec la même recette : une union de la gauche, à rebours de la stratégie de La France insoumi…",
-            "source_date": "2025-05-10T06:00:25",
-            "source_author": "Malika Cheklal",
-            "source_site": "Le Monde"
+            "source_title": "À l'approche de l'élection présidentielle, Paris craint toujours plus les ingérences en ligne",
+            "source_link": "https://www.humanite.fr/politique/commission-europeenne/a-lapproche-de-lelection-presidentielle-paris-craint-toujours-plus-les-ingerences-en-ligne",
+            "source_excerpt": null,
+            "source_date": "05/20/2025, 03:54 PM, +0000 UTC",
+            "source_author": {
+                "name": "L'Humanité",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.humanite.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "L'Humanité",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.humanite.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 2,
         "title": "La crise énergétique impacte les marchés européens",
         "result": {
-            "source_title": "Quel est le meilleur investissement en 2025 ? Actions, obligations, or, le grand comparatif des placements",
-            "source_link": "https://www.latribune.fr/supplement/quel-est-le-meilleur-investissement-en-2025-actions-obligations-or-le-grand-comparatif-des-placements-1024927.html",
-            "source_excerpt": "Les épargnants disposent aujourd’hui de plusieurs grandes catégories d’investissement : \r\nLes actions bien sûr même si l’investissement se fait souvent sous forme d’ETF de nos jours,\r\nLes obligations d’État à commencer par les États-Unis, le Japon et la Chine…",
-            "source_date": "2025-05-14T08:37:00",
-            "source_author": "La Tribune",
-            "source_site": "La Tribune.fr"
+            "source_title": "Action de l’UE pour faire face à la crise énergétique",
+            "source_link": "https://commission.europa.eu/topics/energy/eu-action-address-energy-crisis_fr",
+            "source_excerpt": null,
+            "source_date": "04/05/2025, 02:31 PM, +0000 UTC",
+            "source_author": {
+                "name": "European Commission",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://commission.europa.eu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "European Commission",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://commission.europa.eu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 3,
         "title": "Nouvelles avancées dans la lutte contre le cancer",
         "result": {
-            "source_title": "LinkedIn réinvente la recherche d’emploi avec une IA conversationnelle et une meilleure adéquation",
-            "source_link": "https://www.fredzone.org/linkedin-reinvente-la-recherche-demploi-avec-une-ia-conversationnelle-et-une-meilleure-adequation/",
-            "source_excerpt": "LinkedIn, la plateforme de réseautage professionnel détenue par Microsoft, s’apprête à transformer radicalement l’expérience de recherche d’emploi. L’entreprise introduit de nouveaux outils basés sur l’intelligence artificielle, permettant aux utilisateurs de…",
-            "source_date": "2025-05-10T22:34:30",
-            "source_author": "Habib ADECHOKAN",
-            "source_site": "FREDZONE"
+            "source_title": "Une nouvelle classe de molécules contre les cellules cancéreuses réfractaires aux traitements conventionnels",
+            "source_link": "https://www.cnrs.fr/fr/presse/une-nouvelle-classe-de-molecules-contre-les-cellules-cancereuses-refractaires-aux",
+            "source_excerpt": null,
+            "source_date": "05/07/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Centre national de la recherche scientifique (CNRS)",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.cnrs.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Centre national de la recherche scientifique (CNRS)",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.cnrs.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 4,
         "title": "Les innovations technologiques en 2025",
         "result": {
-            "source_title": "Le monde du PC est encore largement étanche aux promesses de l’IA d’après Intel",
-            "source_link": "https://www.frandroid.com/marques/intel-materiels-accessoires/2596249_le-monde-du-pc-est-encore-largement-etanche-aux-prouesses-de-lintelligence-artificielle-explique-intel",
-            "source_excerpt": "Alors que l’IA a envahi quasiment tous les recoins de nos appareils technologiques, il semblerait que les prouesses de ce nouveau paradigme peinent encore à convaincre les utilisateurs et utilisatrices PC.",
-            "source_date": "2025-04-28T06:26:00",
-            "source_author": "Corentin Béchade",
-            "source_site": "Frandroid"
+            "source_title": "Nouvelles technologies révolutionnaires à Computex 2025",
+            "source_link": "https://lesnews.ca/tech/nouvelles-technologies-revolutionnaires-a-computex-2025/",
+            "source_excerpt": null,
+            "source_date": "05/24/2025, 06:35 AM, +0000 UTC",
+            "source_author": {
+                "name": "LesNews",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://lesnews.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "LesNews",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://lesnews.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 5,
         "title": "Le changement climatique et ses effets sur la biodiversité",
         "result": {
-            "source_title": "Patagonie : sur les traces de Magellan",
-            "source_link": "https://www.futura-sciences.com/planete/actualites/exploration-patagonie-traces-magellan-121529/",
-            "source_excerpt": "À la croisée de l’Argentine et du Chili, la Patagonie déploie ses paysages sauvages entre steppes arides, glaciers étincelants et montagnes escarpées. Cette terre de contrastes impressionne par son immensité et par la diversité de ses écosystèmes. Un territoi…",
-            "source_date": "2025-05-05T19:00:00",
-            "source_author": "Thierry Suzan, Explorateur, journaliste, écrivain",
-            "source_site": "Futura"
+            "source_title": "Impacts du changement climatique : Eau et Biodiversité",
+            "source_link": "https://www.ecologie.gouv.fr/politiques-publiques/impacts-du-changement-climatique-eau-biodiversite",
+            "source_excerpt": null,
+            "source_date": "02/12/2025, 08:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Ministères Aménagement du territoire Transition écologique",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.ecologie.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Ministères Aménagement du territoire Transition écologique",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.ecologie.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 6,
         "title": "L'impact économique du télétravail",
         "result": {
-            "source_title": "Pour Elon Musk, la situation commerciale de Tesla a « déjà été rétablie », après un fléchissement des ventes",
-            "source_link": "https://www.lemonde.fr/economie/article/2025/05/20/pour-elon-musk-la-situation-commerciale-de-tesla-a-deja-ete-retablie-apres-un-flechissement-des-ventes_6607396_3234.html",
-            "source_excerpt": "S’exprimant par visioconférence au Forum économique du Qatar, mardi, le patron américain a voulu rassurer sur la santé de son entreprise. Il a également déclaré vouloir dépenser « beaucoup moins » de sa fortune pour financer des campagnes électorales.",
-            "source_date": "2025-05-20T15:53:52",
-            "source_author": "Le Monde avec AFP",
-            "source_site": "Le Monde"
+            "source_title": "Le télétravail, facteur de productivité",
+            "source_link": "https://www.imf.org/fr/Publications/fandd/issues/2024/09/working-from-home-is-powering-productivity-bloom",
+            "source_excerpt": null,
+            "source_date": "09/18/2024, 09:28 PM, +0000 UTC",
+            "source_author": {
+                "name": "International Monetary Fund",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.imf.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "International Monetary Fund",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.imf.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 7,
         "title": "La réforme des retraites suscite des débats",
         "result": {
-            "source_title": "Ce qu’il faut retenir de l’intervention d’Emmanuel Macron sur TF1",
-            "source_link": "https://www.lemonde.fr/politique/article/2025/05/13/ce-qu-il-faut-retenir-de-l-intervention-d-emmanuel-macron-sur-tf1_6605852_823448.html",
-            "source_excerpt": "Sur la fin de vie, le chef de l’Etat n’a pas exclu, mardi, un référendum en cas de blocage parlementaire. D’une manière plus générale, il a dit souhaiter saisir les Français « sur des grandes réformes économiques, éducatives ou sociales », même s’il a écarté …",
-            "source_date": "2025-05-13T21:51:14",
-            "source_author": "Le Monde avec AFP",
-            "source_site": "Le Monde"
+            "source_title": "Réforme des retraites : que cache le débat autour des 64 ans ?",
+            "source_link": "https://www.socialmag.news/26/03/2025/reforme-des-retraites-que-cache-le-debat-autour-des-64-ans/",
+            "source_excerpt": null,
+            "source_date": "03/26/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Social Mag",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.socialmag.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Social Mag",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.socialmag.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 8,
         "title": "La croissance du marché des véhicules électriques",
         "result": {
-            "source_title": "L’avènement de la voiture électrique est-il aussi irrémédiable qu’on nous le dit ?",
-            "source_link": "https://www.presse-citron.net/lavenement-de-la-voiture-electrique-est-il-aussi-irremediable-quon-nous-le-dit/",
-            "source_excerpt": "Les ventes de ces véhicules explosent partout dans le monde, mais cette tendance est-elle durable ?",
-            "source_date": "2025-05-14T06:37:13",
-            "source_author": "Jean-Yves Alric",
-            "source_site": "Presse-citron"
+            "source_title": "Croissance mondiale, stagnation européenne : où en est le marché des véhicules électriques ?",
+            "source_link": "https://www.la-croix.com/economie/croissance-mondiale-stagnation-europeenne-ou-en-est-le-marche-des-vehicules-electriques-20250514",
+            "source_excerpt": null,
+            "source_date": "05/14/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "La Croix",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.la-croix.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "authors": [
+                    "Nils Lepretre"
+                ]
+            },
+            "source_site": {
+                "name": "La Croix",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.la-croix.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "authors": [
+                    "Nils Lepretre"
+                ]
+            }
         }
     },
     {
         "post_id": 9,
         "title": "Les derniers résultats du tournoi de tennis",
         "result": {
-            "source_title": "Tennis. « Roland-Garros ? Pas un grand objectif » : après son abandon à Rome, Humbert vise un retour en forme « pour le gazon »",
-            "source_link": "https://www.ledauphine.com/sport/2025/05/09/roland-garros-pas-un-grand-objectif-apres-son-abandon-a-rome-humbert-vise-un-retour-en-forme-pour-le-gazon",
-            "source_excerpt": "Ugo Humbert est toujours en délicatesse avec sa main droite, un mois après sa fracture de la cinquième métacarpe. Le Messin visera surtout de bons résultats sur gazon, en juin.",
-            "source_date": "2025-05-09T16:48:00",
-            "source_author": "La rédaction avec AFP",
-            "source_site": "Le Dauphiné Libéré"
+            "source_title": "Tennis de table : calendrier, tournoi, résultats et toute l’actualité en direct",
+            "source_link": "https://www.ouest-france.fr/sport/tennis-de-table/",
+            "source_excerpt": null,
+            "source_date": "05/22/2025, 02:10 PM, +0000 UTC",
+            "source_author": {
+                "name": "Ouest-France",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ouest-france.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Ouest-France",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ouest-france.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 10,
         "title": "Le rôle des réseaux sociaux dans la politique",
         "result": {
-            "source_title": "Surfshark VPN : outil indispensable face aux restrictions Internet en 2025",
-            "source_link": "https://korben.info/surfshark-vpn-restrictions-internet.html",
-            "source_excerpt": "– Article en partenariat avec Surfshark –\r\n\nEn 2025, l’accès à un internet libre et sans censure est devenu une denrée de plus en plus rare dans de nombreux pays. Des gouvernements imposent des restrictions drastiques sur les réseaux sociaux, les plateformes …",
-            "source_date": "2025-05-19T17:00:00",
-            "source_author": "Korben",
-            "source_site": "Korben.info"
+            "source_title": "« Les réseaux sociaux sont une arme politique de destruction massive »",
+            "source_link": "https://www.lemonde.fr/idees/article/2024/08/01/les-reseaux-sociaux-sont-une-arme-politique-de-destruction-massive_6263704_3232.html",
+            "source_excerpt": null,
+            "source_date": "08/01/2024, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Le Monde.fr",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lemonde.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Le Monde.fr",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lemonde.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 11,
         "title": "Les tendances mode printemps-été 2025",
         "result": {
-            "source_title": "Modifier la grille Instagram : quel impact pour les créateurs de contenu et les marques ?",
-            "source_link": "https://www.webmarketing-com.com/modifier-grille-instagram-impact-createurs-de-contenu-et-marques",
-            "source_excerpt": "Début 2025, Instagram a introduit des mises à jour majeures, dont la possibilité de modifier la grille de profil. Fini le casse-tête de la planification millimétrée du feed ! L’apparence de la grille est désormais modulable comme la vitrine d’un magasin. Mais…",
-            "source_date": "2025-05-06T07:30:00",
-            "source_author": "Niri Brusa",
-            "source_site": "Webmarketing-com.com"
+            "source_title": "Les 15 tendances mode de l'été 2025",
+            "source_link": "https://www.vogue.fr/galerie/tendances-mode-printemps-ete-2025",
+            "source_excerpt": null,
+            "source_date": "05/14/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Vogue France",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vogue.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "authors": [
+                    "Heloise Salessy"
+                ]
+            },
+            "source_site": {
+                "name": "Vogue France",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vogue.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "authors": [
+                    "Heloise Salessy"
+                ]
+            }
         }
     },
     {
         "post_id": 12,
         "title": "L'importance de la cybersécurité dans les entreprises",
         "result": {
-            "source_title": "Révélations ZATAZ : la fuite de données qui expose 16,3 millions de Français",
-            "source_link": "https://www.zataz.com/zataz-revele-une-importante-fuite-de-donnees-impacte-163-millions-de-francais/",
-            "source_excerpt": "Le Service Veille ZATAZ vient de détecter une fuite de données concernant des millions de Français. Un espace pirate 100% spécialisé dans les opérateurs télécoms hexagonaux....",
-            "source_date": "2025-04-27T21:21:51",
-            "source_author": "Damien Bancal",
-            "source_site": "Zataz.com"
+            "source_title": "Cybersécurité en entreprise : définition, enjeux et perspectives",
+            "source_link": "https://bigmedia.bpifrance.fr/nos-dossiers/cybersecurite-en-entreprise-definition-enjeux-et-perspectives",
+            "source_excerpt": null,
+            "source_date": "01/21/2025, 08:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Bpifrance",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Bpifrance",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 13,
         "title": "Les avancées en intelligence artificielle",
         "result": {
-            "source_title": "Actualité : iPhone 17 Air : un modèle ultra-fin taillé pour Apple Intelligence",
-            "source_link": "https://www.lesnumeriques.com/telephone-portable/iphone-17-air-un-modele-ultra-fin-taille-pour-apple-intelligence-n236082.html",
-            "source_excerpt": "L’iPhone 17 Air n’en a pas fini de faire rêver. Une récente rumeur évoque en effet que le smartphone ultra-fin d’Apple disposerait de 12 Go de RAM, laissant ainsi espérer de belles choses à venir côté intelligence artificielle.",
-            "source_date": "2025-04-28T14:30:00",
-            "source_author": "Alexandre Scotti",
-            "source_site": "Les Numériques"
+            "source_title": "L’intelligence artificielle, un outil d’évolution pour les industries du futur",
+            "source_link": "https://www.techniques-ingenieur.fr/actualite/articles/l-intelligence-artificielle-un-outil-d-evolution-pour-les-industries-4-0-146043/",
+            "source_excerpt": null,
+            "source_date": "05/22/2025, 06:34 AM, +0000 UTC",
+            "source_author": {
+                "name": "Techniques de l'Ingénieur",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techniques-ingenieur.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Techniques de l'Ingénieur",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techniques-ingenieur.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 14,
         "title": "La protection des données personnelles",
         "result": {
-            "source_title": "TikTok condamné à une amende de 530 millions d’euros dans l’Union européenne pour avoir enfreint les règles européennes de protection des données",
-            "source_link": "https://www.lemonde.fr/pixels/article/2025/05/02/tiktok-condamne-a-une-amende-de-530-millions-d-euros-dans-l-union-europeenne-pour-avoir-enfreint-les-regles-europeennes-de-protection-des-donnees_6602270_4408996.html",
-            "source_excerpt": "L’Autorité de protection des données irlandaise a estimé que la plateforme chinoise n’est pas parvenue à « démontrer que les données personnelles » des Européens, « accessibles à distance par son personnel en Chine », bénéficient dans ce pays d’un niveau de p…",
-            "source_date": "2025-05-02T11:42:35",
-            "source_author": "Le Monde avec AFP",
-            "source_site": "Le Monde"
+            "source_title": "Politique de protection des données",
+            "source_link": "https://www.chu-toulouse.fr/politique-de-protection-des-donnees",
+            "source_excerpt": null,
+            "source_date": "05/19/2025, 05:53 PM, +0000 UTC",
+            "source_author": {
+                "name": "chu-toulouse.fr",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.chu-toulouse.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "chu-toulouse.fr",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.chu-toulouse.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 15,
         "title": "Les défis du secteur agricole face au climat",
         "result": {
-            "source_title": "OPINION. « En Europe, comme dans les autres continents, la sécurité passe par la solidarité internationale »",
-            "source_link": "https://www.latribune.fr/idees/tribunes/opinion-en-europe-comme-dans-les-autres-continents-la-securite-passe-par-la-solidarite-internationale-1023463.html",
-            "source_excerpt": "OPINION. Depuis le retour de Donald Trump à la Maison-Blanche, ses décisions bouleversent la scène mondiale, de l’environnement à la démocratie. L’Europe doit se réaffirmer comme une puissance militaire, mais aussi sociale et environnementale, pour défendre s…",
-            "source_date": "2025-04-26T07:19:00",
-            "source_author": "La Tribune",
-            "source_site": "La Tribune.fr"
+            "source_title": "COP29: les défis du secteur agricole face au changement climatique",
+            "source_link": "https://www.rfi.fr/fr/environnement/20241119-cop29-les-d%C3%A9fis-du-secteur-agricole-face-au-changement-climatique",
+            "source_excerpt": null,
+            "source_date": "11/19/2024, 08:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "RFI",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rfi.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "RFI",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rfi.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 16,
         "title": "Les manifestations pour la justice sociale",
         "result": {
-            "source_title": "Face au journalisme de classe (tract)",
-            "source_link": "https://www.acrimed.org/Face-au-journalisme-de-classe-tract",
-            "source_excerpt": "Un tract pour les manifestations du 1er mai.\n\n-\nTravail, salaires, emploi, etc.",
-            "source_date": "2025-05-01T06:00:00",
-            "source_author": "Acrimed",
-            "source_site": "Acrimed.org"
+            "source_title": "Journée inter­na­tio­nale du 1",
+            "source_link": "https://www.placegrenet.fr/2025/04/28/journee-internationale-du-1er-mai-des-appels-a-manifester-en-isere-pour-la-paix-et-la-justice-sociale/651706",
+            "source_excerpt": null,
+            "source_date": "04/28/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Place Gre'net",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.placegrenet.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Place Gre'net",
+                "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.placegrenet.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 17,
         "title": "Les innovations dans l'industrie spatiale",
         "result": {
-            "source_title": "Les géants japonais de la beauté étendent leur empire",
-            "source_link": "https://www.usinenouvelle.com/article/les-geants-japonais-de-la-beaute-etendent-leur-empire.N2228343",
-            "source_excerpt": "Visite exclusive au cœur des usines de Shiseido, Kosé et Kao au Japon. Des acteurs de la cosmétique japonaise qui, au-delà de leur marché intérieur et de la Chine, développent leurs exportations tous azimuts. Mettre la main sur un baume à lèvres ou une crème …",
-            "source_date": "2025-04-25T04:30:00",
-            "source_author": "Julien Cottineau",
-            "source_site": "L'Usine Nouvelle"
+            "source_title": "L'innovation dans le spatial",
+            "source_link": "https://www.f-initiatives.com/sector/spatial/",
+            "source_excerpt": null,
+            "source_date": "11/02/2024, 10:14 AM, +0000 UTC",
+            "source_author": {
+                "name": "F.initiatives",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.f-initiatives.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "F.initiatives",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.f-initiatives.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 18,
         "title": "Le développement des énergies renouvelables",
         "result": {
-            "source_title": "Après le black-out en Espagne, la France peut-elle être touchée ?",
-            "source_link": "https://www.journaldugeek.com/2025/05/12/apres-le-black-out-en-espagne-la-france-peut-elle-etre-touchee/",
-            "source_excerpt": "La panne d’électricité qui a plongé l’Espagne et le Portugal dans le noir le 28 avril 2025 a agi comme un électrochoc pour toute l’Europe.",
-            "source_date": "2025-05-12T08:32:37",
-            "source_author": "Amandine Jonniaux",
-            "source_site": "Journal du geek"
+            "source_title": "Zones d'accélération des énergies renouvelables // calendrier et ressources",
+            "source_link": "https://www.morbihan.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-et-developpement-local-construction-logement-et-paysages/Planification-energetique/Zones-d-acceleration-des-energies-renouvelables-calendrier-et-ressources",
+            "source_excerpt": null,
+            "source_date": "05/16/2025, 05:03 AM, +0000 UTC",
+            "source_author": {
+                "name": "morbihan.gouv.fr",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.morbihan.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "morbihan.gouv.fr",
+                "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.morbihan.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 19,
         "title": "La réforme de l'éducation nationale",
         "result": {
-            "source_title": "Éducation. Convention citoyenne sur l’éducation : Emmanuel Macron peut-il vraiment réformer les rythmes scolaires ?",
-            "source_link": "https://www.ledauphine.com/education/2025/05/04/convention-citoyenne-sur-l-education-emmanuel-macron-peut-il-vraiment-reformer-les-rythmes-scolaires",
-            "source_excerpt": "Une convention citoyenne sur les vacances et les horaires scolaires va être lancée. Un sujet inflammable qui concerne le quotidien de millions de Français et sur lequel un consensus semble difficile à trouver.",
-            "source_date": "2025-05-04T16:30:00",
-            "source_author": "Delphine Bancaud",
-            "source_site": "Le Dauphiné Libéré"
+            "source_title": "Réforme de la formation initiale des professeurs : dossier de présentation",
+            "source_link": "https://www.education.gouv.fr/reforme-de-la-formation-initiale-des-professeurs-dossier-de-presentation-450115",
+            "source_excerpt": null,
+            "source_date": "03/28/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Education.gouv.fr",
+                "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.education.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Education.gouv.fr",
+                "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.education.gouv.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     },
     {
         "post_id": 20,
         "title": "Les avancées médicales contre les maladies neurodégénératives",
         "result": {
-            "source_title": "Après une baisse des vaccinations, des maladies évitables repartent à la hausse, alerte l’ONU",
-            "source_link": "https://www.lemonde.fr/sante/article/2025/04/24/apres-une-baisse-des-vaccinations-des-maladies-evitables-repartent-a-la-hausse-alerte-l-onu_6599451_1651302.html",
-            "source_excerpt": "Alors que les vaccins ont sauvé plus de 150 millions de vies en cinq décennies, selon Tedros Adhanom Ghebreyesus, les coupes financières, la désinformation, la multiplication des crises humanitaires et la croissance démographique menacent ces avancées.",
-            "source_date": "2025-04-24T01:56:41",
-            "source_author": "Le Monde avec AFP",
-            "source_site": "Le Monde"
+            "source_title": "Nanotechnologie et traitement des maladies neurodégénératives",
+            "source_link": "https://bigmedia.bpifrance.fr/nos-dossiers/nanotechnologie-et-traitement-des-maladies-neurodegeneratives",
+            "source_excerpt": null,
+            "source_date": "03/18/2025, 07:00 AM, +0000 UTC",
+            "source_author": {
+                "name": "Bpifrance",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            },
+            "source_site": {
+                "name": "Bpifrance",
+                "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bigmedia.bpifrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+            }
         }
     }
 ]
