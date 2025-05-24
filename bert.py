@@ -7,10 +7,10 @@ from create_tables import emotional_analysis_bert
 model_name = "bhadresh-savani/distilbert-base-uncased-emotion"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
-emotion_pipeline = pipeline("text-classification", model=model, tokenizer=tokenizer, top_k=None)
+emotion_pipeline_bert = pipeline("text-classification", model=model, tokenizer=tokenizer, top_k=None)
 
 engine = get_engine()
-translator = GoogleTranslator(source='fr', target='en')
+translator_bert = GoogleTranslator(source='fr', target='en')
 
 def analyze_posts():
     with engine.connect() as connection:
@@ -35,8 +35,8 @@ def analyze_posts():
             connection.commit()
 
 def analyze_emotions(content, post_id):
-    translated_content = translator.translate(content)
-    emotions = emotion_pipeline(translated_content)
+    translated_content = translator_bert.translate(content)
+    emotions = emotion_pipeline_bert(translated_content)
     emotion_scores = {emotion['label']: int(emotion['score'] * 100) for emotion in emotions[0]}
     emotional_data = {
         "post_id": post_id,

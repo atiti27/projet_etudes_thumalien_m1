@@ -11,3 +11,4 @@ deep-translator
 spacy
 matplotlib
 seaborn
+scikit-learn
