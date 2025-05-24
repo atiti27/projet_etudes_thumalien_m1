@@ -1,6 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sqlalchemy import text
+from db import get_engine
+
 
 def transform_into_df(data, columns):
     return pd.DataFrame(data, columns=columns)
@@ -23,7 +26,7 @@ def display_variable_distribution(df):
     """
 
     numerical_columns = df.select_dtypes(include=['int64', 'float64']).columns
-    categorical_columns = df.select_dtypes(include=['object']).columns
+    categorical_columns = df[["author", "hashtags"]]
 
     df[numerical_columns].hist(figsize=(15, 10), bins=30)
     plt.suptitle('Distribution des variables numériques')
@@ -43,9 +46,9 @@ def display_variable_distribution(df):
     plt.title('Boxplot des variables numériques')
     plt.show()
 
-    plt.figure(figsize=(14, 10))
+    plt.figure(figsize=(12, 8))
     for i, col in enumerate(categorical_columns):
-        plt.subplot(3, 2, i+1)
+        plt.subplot(2, 1, i+1)
         if df[col].nunique() > 10:
             order = df[col].value_counts().index[:10]
             sns.countplot(data=df, x=col, order=order)
@@ -57,6 +60,12 @@ def display_variable_distribution(df):
     plt.tight_layout()
     plt.show()
 
+    # Analyse temporelle
+    df['publi_date'] = pd.to_datetime(df['publi_date'])
+    df.set_index('publi_date').resample('ME')[['nbr_like', 'nbr_comment', 'nbr_repost']].sum().plot()
+    plt.title('Évolution mensuelle des interactions')
+    plt.show()
+
     # Matrice de corrélation
     plt.figure(figsize=(12, 8))
     sns.heatmap(df[numerical_columns].corr(), annot=True, fmt=".2f", cmap='coolwarm', square=True)
@@ -65,43 +74,22 @@ def display_variable_distribution(df):
     
 if __name__ == "__main__":
 
-    # Exemple de données
-    data = [
-        {
-            "title": "Example Title",
-            "content": "Example content with some text.",
-            "author": "John Doe",
-            "publi_date": "2023-10-01",
-            "link": "https://example.com",
-            "nbr_like": 10,
-            "nbr_comment": 5,
-            "nbr_repost": 2,
-            "hashtags": "#example #test",
-        },
-        {
-            "title": "Another Title",
-            "content": "Another piece of content.",
-            "author": "Bob Brown",
-            "publi_date": "2023-10-04",
-            "link": "https://example.com/another",
-            "nbr_like": 20,
-            "nbr_comment": 10,
-            "nbr_repost": 5,
-            "hashtags": "#another #test",
-        },
-        {
-            "title": "Third Title",
-            "content": "Third content example.",
-            "author": "Charlie Black",
-            "publi_date": "2023-10-05",
-            "link": "https://example.com/third",
-            "nbr_like": 30,
-            "nbr_comment": 15,
-            "nbr_repost": 7,
-            "hashtags": "#third #test",
-        }
-    ]
+    engine = get_engine()
 
-    df = pd.DataFrame(data)
-    get_info_df(df)
-    display_variable_distribution(df)
+    # Récupérer les posts de la base de données
+    with engine.connect() as connection:
+        posts_table = connection.execute(text("""
+            SELECT title, content, author, publi_date, link, nbr_like, nbr_comment, nbr_repost, hashtags
+            FROM posts p
+            ORDER BY p.id
+        """)).fetchall()
+        columns = ["title", "content", "author", "publi_date", "link", "nbr_like", "nbr_comment", "nbr_repost", "hashtags"]
+        data = [{col: row[i] for i, col in enumerate(columns)} for row in posts_table]
+        df = transform_into_df(data, columns)
+
+        if df.empty:
+            print("Aucun post trouvé dans la base de données.")
+            exit()
+
+        get_info_df(df)
+        display_variable_distribution(df)
