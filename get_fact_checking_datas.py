@@ -1,15 +1,15 @@
 import os
 import re
 import requests
-import json
 from datetime import datetime
+from sqlalchemy import create_engine, MetaData, select, insert
 from dotenv import load_dotenv
 
 load_dotenv()
 
 def extract_keywords(text):
     stop_words = {
-        "le", "la", "les", "de", "des", "du", "un", "une", "et", "à", "dans", "sur", 
+        "le", "la", "les", "de", "des", "du", "un", "une", "et", "à", "dans", "sur",
         "pour", "par", "avec", "au", "aux", "ce", "ces", "se", "sa", "son"
     }
     words = re.findall(r'\b\w+\b', text.lower())
@@ -46,60 +46,40 @@ def search_fact_source_flexible(title):
     return None
 
 def main():
-    simulated_posts = [
-        {"id": 1, "title": "Les élections présidentielles approchent en France"},
-        {"id": 2, "title": "La crise énergétique impacte les marchés européens"},
-        {"id": 3, "title": "Nouvelles avancées dans la lutte contre le cancer"},
-        {"id": 4, "title": "Les innovations technologiques en 2025"},
-        {"id": 5, "title": "Le changement climatique et ses effets sur la biodiversité"},
-        {"id": 6, "title": "L'impact économique du télétravail"},
-        {"id": 7, "title": "La réforme des retraites suscite des débats"},
-        {"id": 8, "title": "La croissance du marché des véhicules électriques"},
-        {"id": 9, "title": "Les derniers résultats du tournoi de tennis"},
-        {"id": 10, "title": "Le rôle des réseaux sociaux dans la politique"},
-        {"id": 11, "title": "Les tendances mode printemps-été 2025"},
-        {"id": 12, "title": "L'importance de la cybersécurité dans les entreprises"},
-        {"id": 13, "title": "Les avancées en intelligence artificielle"},
-        {"id": 14, "title": "La protection des données personnelles"},
-        {"id": 15, "title": "Les défis du secteur agricole face au climat"},
-        {"id": 16, "title": "Les manifestations pour la justice sociale"},
-        {"id": 17, "title": "Les innovations dans l'industrie spatiale"},
-        {"id": 18, "title": "Le développement des énergies renouvelables"},
-        {"id": 19, "title": "La réforme de l'éducation nationale"},
-        {"id": 20, "title": "Les avancées médicales contre les maladies neurodégénératives"}
-    ]
+    # Connexion à la base
+    engine = create_engine(os.getenv("DATABASE_URL"))
+    metadata = MetaData()
+    metadata.reflect(bind=engine)
 
-    fact_check_data = []
+    posts_table = metadata.tables['posts']
+    fact_check_sources = metadata.tables['fact_check_sources']
 
-    for post in simulated_posts:
-        article = search_fact_source_flexible(post["title"])
+    with engine.connect() as connection:
+        # Récupérer 20 posts (id, title)
+        result = connection.execute(select(posts_table.c.id, posts_table.c.title).limit(20))
 
-        if article is None:
-            print(f"Aucun article trouvé pour : '{post['title']}'")
-            fact_check_data.append({
-                "post_id": post["id"],
-                "title": post["title"],
-                "result": None,
-                "message": "Aucun article trouvé pour ce titre."
-            })
-        else:
-            fact_check_data.append({
-                "post_id": post["id"],
-                "title": post["title"],
-                "result": {
-                    "source_title": article.get("title"),
-                    "source_link": article.get("url"),
-                    "source_excerpt": article.get("description"),
-                    "source_date": datetime.strptime(article.get("publishedAt"), "%Y-%m-%dT%H:%M:%SZ").isoformat() if article.get("publishedAt") else None,
-                    "source_author": article.get("author"),
-                    "source_site": article.get("source", {}).get("name")
-                }
-            })
+        for row in result:
+            post_id = row.id
+            title = row.title
 
-    with open("fact_check_results.json", "w", encoding="utf-8") as f:
-        json.dump(fact_check_data, f, ensure_ascii=False, indent=4)
+            article = search_fact_source_flexible(title)
 
-    print("Résultats sauvegardés dans fact_check_results.json")
+            if article is None:
+                print(f"Aucun article trouvé pour : '{title}'")
+                # Optionnel: insérer une ligne vide ou un log dans la base
+            else:
+                # Préparer l'insertion dans fact_check_sources
+                insert_stmt = insert(fact_check_sources).values(
+                    post_id=post_id,
+                    source_title=article.get("title"),
+                    source_link=article.get("url"),
+                    source_excerpt=article.get("description"),
+                    source_date=datetime.strptime(article.get("publishedAt"), "%Y-%m-%dT%H:%M:%SZ") if article.get("publishedAt") else None,
+                    source_author=article.get("author"),
+                    source_site=article.get("source", {}).get("name")
+                )
+                connection.execute(insert_stmt)
+                print(f"Article inséré pour post ID {post_id}")
 
 if __name__ == "__main__":
     main()
