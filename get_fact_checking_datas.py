@@ -3,7 +3,7 @@ import re
 import requests
 from dotenv import load_dotenv
 from sqlalchemy import MetaData, Table, Column, Integer, Text, String, ForeignKey, select, insert
-from db import engine  # Utilise ton moteur PostgreSQL personnalisé
+from db import engine
 
 load_dotenv()
 
@@ -15,15 +15,8 @@ posts_table = Table(
 )
 
 fact_checks_table = Table(
-    'fact_checks', metadata,
-    Column('id', Integer, primary_key=True, autoincrement=True),
-    Column('post_id', Integer, ForeignKey('posts.id')),
-    Column('claim_id', String(255)),  # ID unique du claim pour référence
-    Column('claim_text', Text),
-    Column('source_title', String(255)),
-    Column('source_link', String(255)),
-    Column('source_excerpt', Text),
-    Column('source_site', String(255)),
+    "fact_checks", metadata,
+    autoload_with=engine
 )
 
 metadata.create_all(engine)
@@ -88,17 +81,18 @@ def main():
                 for claim in claims:
                     claim_id = claim.get("claimReview", [{}])[0].get("claimReviewed", "") or claim.get("text", "")
                     for review in claim.get("claimReview", []):
-                        conn.execute(
-                            insert(fact_checks_table).values(
-                                post_id=post_id,
-                                claim_id=claim_id,
-                                claim_text=claim.get("text"),
-                                source_title=review.get("title"),
-                                source_link=review.get("url"),
-                                source_excerpt=review.get("textualRating"),
-                                source_site=review.get("publisher", {}).get("name")
-                            )
-                        )
+                        fact_check = {
+                            "post_id": post_id,
+                            "claim_id": claim_id,
+                            "claim_text": claim.get("text", ""),
+                            "source_title": review.get("title", ""),
+                            "source_link": review.get("url", ""),
+                            "source_excerpt": review.get("textualRating", ""),
+                            "source_site": review.get("publisher", {}).get("name", "")
+                        }
+                        # Insertion dans la table fact_checks
+                        conn.execute(fact_checks_table.insert(), fact_check)
+                conn.commit()
                 print(f"✅ {len(claims)} claim(s) et jusqu'à 3 reviews chacun enregistrés pour le post #{post_id}")
             else:
                 print(f"❌ Aucun fact-check trouvé pour : '{title}'")

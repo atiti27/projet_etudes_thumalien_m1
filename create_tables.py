@@ -55,7 +55,7 @@ emotional_analysis_roberta = Table("emotional_analysis_roberta", metadata,
 )
 
 fact_checks_table = Table(
-    "fact_checks", metadata,
+    "fact_checks_sources", metadata,
     Column("id", Integer, primary_key=True, autoincrement=True),
     Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE"), nullable=False),
     Column("claim_id", String(255), nullable=False),
