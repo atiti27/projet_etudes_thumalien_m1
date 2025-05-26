@@ -1,4 +1,4 @@
-from sqlalchemy import Table, Column, Integer, Text, TIMESTAMP, MetaData, ForeignKey, String, DateTime
+from sqlalchemy import Table, Column, Integer, Text, Float, TIMESTAMP, Boolean, MetaData, ForeignKey, String, DateTime
 from db import get_engine
 
 engine = get_engine()
@@ -64,6 +64,34 @@ fact_checks_table = Table(
     Column("source_link", String(255)),
     Column("source_excerpt", Text),
     Column("source_site", String(255)),
+)
+
+comprehensive_analysis_table = Table(
+    "comprehensive_reliability_analysis", metadata,
+    Column("id", Integer, primary_key=True),
+    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE")),
+    
+    # Classification RoBERTa
+    Column("content_category", String(50)),
+    Column("content_confidence", Float, default=0.0),
+    
+    # Détection fake news RoBERTa
+    Column("is_fake_news", Integer, default=0),
+    Column("fake_news_confidence", Float, default=0.0),
+    
+    # Score de fiabilité basé sur le contenu
+    Column("content_reliability_score", Float, default=0.0),
+    
+    # Fact-checking externe
+    Column("has_fact_check", Boolean, default=False),
+    Column("fact_check_rating", String(100)),
+    Column("fact_check_source", String(255)),
+    Column("external_reliability_score", Float, default=0.0),
+    
+    # Score global synthétique
+    Column("global_reliability_score", Float, default=0.0),
+    Column("final_category", String(50)),
+    Column("confidence_level", String(20)), 
 )
 
 if __name__ == "__main__":
