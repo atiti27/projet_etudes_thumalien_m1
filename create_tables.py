@@ -1,4 +1,5 @@
 from sqlalchemy import Table, Column, Integer, Text, Float, TIMESTAMP, Boolean, MetaData, ForeignKey, String, DateTime
+from datetime import datetime
 from db import get_engine
 
 engine = get_engine()
@@ -68,31 +69,23 @@ fact_checks_table = Table(
 
 comprehensive_analysis_table = Table(
     "comprehensive_reliability_analysis", metadata,
-    Column("id", Integer, primary_key=True),
-    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE")),
-    
-    # Classification RoBERTa
-    Column("content_category", String(50)),
-    Column("content_confidence", Float, default=0.0),
-    
-    # Détection fake news RoBERTa
+    Column("id", Integer, primary_key=True, autoincrement=True),
+    Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE"), nullable=False),
+    Column("content_category", String(100)),
+    Column("content_confidence", Float),
     Column("is_fake_news", Integer, default=0),
-    Column("fake_news_confidence", Float, default=0.0),
-    
-    # Score de fiabilité basé sur le contenu
-    Column("content_reliability_score", Float, default=0.0),
-    
-    # Fact-checking externe
+    Column("fake_news_confidence", Float),
+    Column("content_reliability_score", Float),
     Column("has_fact_check", Boolean, default=False),
-    Column("fact_check_rating", String(100)),
+    Column("fact_check_rating", String(255)),
     Column("fact_check_source", String(255)),
-    Column("external_reliability_score", Float, default=0.0),
-    
-    # Score global synthétique
-    Column("global_reliability_score", Float, default=0.0),
-    Column("final_category", String(50)),
-    Column("confidence_level", String(20)), 
+    Column("external_reliability_score", Float),
+    Column("global_reliability_score", Float),
+    Column("final_category", String(100)),
+    Column("confidence_level", String(50)),
+    Column("created_at", DateTime, default=datetime.utcnow)
 )
+
 
 if __name__ == "__main__":
     metadata.create_all(engine)
