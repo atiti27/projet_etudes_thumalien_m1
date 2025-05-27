@@ -12,3 +12,6 @@ spacy
 matplotlib
 seaborn
 scikit-learn
+sentence-transformers
+numpy
+requests
