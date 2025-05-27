@@ -15,7 +15,7 @@ posts_table = Table(
 )
 
 fact_checks_table = Table(
-    "fact_checks", metadata,
+    "fact_checks_sources", metadata,
     autoload_with=engine
 )
 

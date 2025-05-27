@@ -59,10 +59,10 @@ fact_checks_table = Table(
     "fact_checks_sources", metadata,
     Column("id", Integer, primary_key=True, autoincrement=True),
     Column("post_id", Integer, ForeignKey("posts.id", ondelete="CASCADE"), nullable=False),
-    Column("claim_id", String(255), nullable=False),
+    Column("claim_id", Text, nullable=False),
     Column("claim_text", Text, nullable=False),
-    Column("source_title", String(255)),
-    Column("source_link", String(255)),
+    Column("source_title", Text),
+    Column("source_link", Text),
     Column("source_excerpt", Text),
     Column("source_site", String(255)),
 )
