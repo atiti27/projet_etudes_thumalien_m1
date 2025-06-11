@@ -8,7 +8,7 @@ from sklearn.metrics import (
     precision_recall_curve, average_precision_score, matthews_corrcoef
 )
 from sqlalchemy import text
-from db import get_engine
+from db.db_connection import get_engine
 import warnings
 warnings.filterwarnings('ignore')
 

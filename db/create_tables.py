@@ -1,6 +1,6 @@
 from sqlalchemy import Table, Column, Integer, Text, Float, TIMESTAMP, Boolean, MetaData, ForeignKey, String, DateTime
 from datetime import datetime
-from db import get_engine
+from db.db_connection import get_engine
 
 engine = get_engine()
 metadata = MetaData()

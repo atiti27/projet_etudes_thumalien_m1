@@ -3,8 +3,14 @@ from atproto_client import Client
 import dotenv
 from sqlalchemy import insert, select
 from extract_data import extract_comment_from_post, extract_data_from_post
-from db import get_engine
-from create_tables import metadata, posts_table, comments_table
+from db.db_connection import get_engine
+from db.create_tables import metadata, posts_table, comments_table
+from model_analysis.emotional.roberta import analyze_posts as analyze_emotions_roberta
+from model_analysis.fake_news_detection.fake_news_detection_roberta import (
+    analyze_posts_comprehensive,
+    generate_synthetic_report,
+    fix_existing_inconsistencies
+)
 
 # Charger les variables d'environnement
 dotenv.load_dotenv()
@@ -102,4 +108,31 @@ for post in feed:
         except Exception as e:
             print(f"Erreur lors de l'insertion du commentaire: {e}")
 
+# Lancement des analyses émotionnelles
+try:
+    print("Démarrage de l'analyse émotionnelle...")
+    analyze_emotions_roberta()
+    print("Analyse émotionnelle terminée.")
+except Exception as e:
+    print(f"Erreur lors de l'analyse émotionnelle: {e}")
 
+# Lancement de l'analyse de détection de désinformation
+try:
+    print("🔍 ANALYSE COMPLÈTE DE FIABILITÉ AVEC ROBERTA")
+    print("Fonctionnalités: Classification, Détection fake news, Utilisation des fact-checks existants")
+    
+    # Message d'information sur la complémentarité
+    print("\n💡 Ce script utilise les fact-checks déjà collectés par get_fact_checking_datas.py")
+    print("   Assurez-vous d'avoir exécuté get_fact_checking_datas.py au préalable.")
+    
+    # Corriger les incohérences existantes
+    fix_existing_inconsistencies()
+    
+    # Lancer l'analyse complète
+    analyze_posts_comprehensive()
+    
+    # Générer le rapport
+    generate_synthetic_report()
+    print("Analyse de détection de désinformation terminée.")
+except Exception as e:
+    print(f"Erreur lors de l'analyse de détection de désinformation: {e}")

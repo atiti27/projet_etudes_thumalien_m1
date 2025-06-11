@@ -1,5 +1,5 @@
-from bert import emotion_pipeline_bert, translator_bert
-from roberta import emotion_pipeline_roberta, translator_roberta
+from model_analysis.emotional.bert import emotion_pipeline_bert, translator_bert
+from model_analysis.emotional.roberta import emotion_pipeline_roberta, translator_roberta
 from sklearn.metrics import classification_report, confusion_matrix
 import time
 import matplotlib.pyplot as plt
