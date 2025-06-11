@@ -24,3 +24,41 @@ D'autres librairies sont dépendantes de celles listées dans le fichier `requir
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 python -m spacy download fr_core_news_sm
 ```
+
+En amont, créer une base de données avec un nom, par exemple `db_thumalien`.
+
+Enfin, vous pouvez lancer le script via la commande suivante:
+
+```
+python main.py
+```
+
+Ce script va automatiquement lancer:
+- la création des tables
+- l'extraction des tweets et des commentaires
+- le prétraitement de ces données
+- le stockage de ces données dans la base de données PostgreSQL
+- l'analyse émotionnelle RoBERTa
+- l'analyse de détection de fake news RoBERTa
+
+Si vous souhaitez lancer à des étapes spécifiques du code indépendamment du script principal, vous pouvez toujours les exécuter à l'aide de la commande `python [nom_script]`.
+
+Un fichier Power BI est disponible, vous pouvez y consulter les différentes visualisations suite aux analyses effectuées.
+
+Avant cela, il faut configurer votre connexion à votre base de données.
+
+- Dans l'accueil, cliquer sur l'icône **Obtenir les données**
+
+![Bouton Obtenir les données](image1.png)
+
+- Un onglet s'affiche, sélectionner la source de données **Base de données PostgreSQL**
+
+![Base de données PostgreSQL](image2.png)
+
+- Un nouvel onglet s'affiche demandant les informations de connexion à la base de données. Saisissez le nom/adresse du serveur et le nom de la base de données.
+
+![Informations de connexion à la base de données](image3.png)
+
+- Un affichage avec l'ensemble des tables est montré, sélectionner l'ensemble des tables et cliquer sur le bouton **Charger**.
+
+![Chargement des données](image4.png)
