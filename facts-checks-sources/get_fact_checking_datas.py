@@ -3,7 +3,7 @@ import re
 import requests
 from dotenv import load_dotenv
 from sqlalchemy import MetaData, Table, Column, Integer, Text, String, ForeignKey, select, insert
-from db import engine
+from db.db_connection import engine
 
 load_dotenv()
 

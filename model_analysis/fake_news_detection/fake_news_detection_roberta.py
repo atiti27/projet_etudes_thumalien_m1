@@ -1,10 +1,9 @@
-import os
 from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 from sqlalchemy import text
-from db import get_engine
+from db.db_connection import get_engine
 from deep_translator import GoogleTranslator
-from create_tables import comprehensive_analysis_table, metadata
+from db.create_tables import comprehensive_analysis_table, metadata
 
 load_dotenv()
 
@@ -419,7 +418,7 @@ def generate_synthetic_report():
             for i, post in enumerate(problematic, 1):
                 title = post.title if post.title != "None" else "Sans titre"
                 fake_status = "IA: Fake" if post.is_fake_news else "IA: Real"
-                print(f"   {i}. {title[:50]}... ({post.final_category}, {post.global_reliability_score:.1f}%, {fake_status})")
+                print(f"   {i}. {title[:50]}... ({post.final_category}: {post.global_reliability_score:.1f}%, {fake_status})")
             
             print("\n" + "="*60)
 

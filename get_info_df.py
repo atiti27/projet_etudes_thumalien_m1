@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sqlalchemy import text
-from db import get_engine
+from db.db_connection import get_engine
 
 
 def transform_into_df(data, columns):

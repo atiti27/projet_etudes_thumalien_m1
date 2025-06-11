@@ -1,8 +1,8 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 from sqlalchemy import text
-from db import get_engine
+from db.db_connection import get_engine
 from deep_translator import GoogleTranslator
-from create_tables import emotional_analysis_bert
+from db.create_tables import emotional_analysis_bert
 
 model_name = "bhadresh-savani/distilbert-base-uncased-emotion"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
