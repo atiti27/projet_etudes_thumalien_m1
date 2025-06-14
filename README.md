@@ -12,6 +12,12 @@ Ce guide utilisateur vous accompagnera tout au long du projet, en fournissant de
 
 ### Installation
 
+Pour récupérer le repository du projet, lancez cette commande dans votre terminal:
+
+```
+git clone https://github.com/atiti27/projet_etudes_thumalien_m1.git
+```
+
 Pour lancer le projet, assurer vous d'être à la racine du projet `projet_etudes_thumalien`. Il faut avant tout installer les packages correspondants. Nous avons déjà mis à disposition les librairies requises dans le fichier `requirements.txt`. Pour leurs installations, il suffit de lancer la commande suivante:
 
 ```
@@ -49,16 +55,16 @@ Avant cela, il faut configurer votre connexion à votre base de données.
 
 - Dans l'accueil, cliquer sur l'icône **Obtenir les données**
 
-![Bouton Obtenir les données](image1.png)
+![Bouton Obtenir les données](resources/image1.png)
 
 - Un onglet s'affiche, sélectionner la source de données **Base de données PostgreSQL**
 
-![Base de données PostgreSQL](image2.png)
+![Base de données PostgreSQL](resources/image2.png)
 
 - Un nouvel onglet s'affiche demandant les informations de connexion à la base de données. Saisissez le nom/adresse du serveur et le nom de la base de données.
 
-![Informations de connexion à la base de données](image3.png)
+![Informations de connexion à la base de données](resources/image3.png)
 
 - Un affichage avec l'ensemble des tables est montré, sélectionner l'ensemble des tables et cliquer sur le bouton **Charger**.
 
-![Chargement des données](image4.png)
+![Chargement des données](resources/image4.png)
