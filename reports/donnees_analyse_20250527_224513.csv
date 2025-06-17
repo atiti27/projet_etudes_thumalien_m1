@@ -1,0 +1,40 @@
+ID,Titre,Auteur,Date Publication,Catégorie,Score Fiabilité,Fake News,Rating Fact-Check,Source Fact-Check,Likes,Commentaires,Reposts
+25,None,L'Informé,2025-05-26 17:56,Fake News,48.2,Oui,,,0,0,0
+26,"En direct, guerre à Gaza : Benyamin Nétanyahou esp...",Le Monde,2025-05-26 17:44,Fiable,85.6,Non,Vrai,Franceinfo,1,1,0
+27,Bande dessinée : protection des enfants contre lib...,Libération,2025-05-26 17:41,Douteux,31.8,Non,Plutôt faux,20 Minutes,4,1,3
+35,None,La Croix,2025-05-26 17:39,Plutôt fiable,47.9,Non,,,2,0,0
+28,None,Le Figaro,2025-05-26 17:30,Fake News,18.4,Oui,,,2,2,0
+29,L’Assemblée rejette la loi agricole Duplomb,La Croix,2025-05-26 17:25,Douteux,43.5,Oui,C’est plus compliqué,Franceinfo,3,2,4
+30,Procès Le Scouarnec : «Notre client a le droit de ...,Libération,2025-05-26 17:23,Fake News,13.4,Oui,Faux,AFP Factuel,4,3,1
+31,«Coup de force» du bloc central ou «obstruction» d...,Libération,2025-05-26 17:03,Fiable,84.4,Oui,Plutôt Vrai,Franceinfo,4,3,6
+32,None,Le Parisien,2025-05-26 17:03,Fake News,17.7,Oui,,,0,2,0
+33,La loi agriculture rejetée (pour de faux) à l’Asse...,Le HuffPost,2025-05-26 16:43,Fake News,23.3,Non,Plutôt Faux,Franceinfo,0,0,2
+34,Les alliés de l’Ukraine lèvent les « limites » sur...,Le HuffPost,2025-05-26 16:22,Peu fiable,21.1,Non,Plutôt faux,TF1 Info,2,1,1
+36,Jets contre le consulat russe à Marseille : la pei...,Le Monde,2025-05-26 16:22,Fake News,12.8,Non,Faux,AFP Factuel,3,1,2
+37,"Football : le PSG, un club français ? Une polémiqu...",Libération,2025-05-26 16:21,Fake News,22.3,Oui,Faux,TF1 Info,3,1,2
+38,Grève des taxis : la vie difficile des transporteu...,La Croix,2025-05-26 16:21,Fiable,80.3,Oui,Vrai,Franceinfo,1,0,0
+39,La FNSEA gare ses tracteurs devant l’Assemblée nat...,Le HuffPost,2025-05-26 16:15,Fiable,85.5,Oui,Plutôt Vrai,Franceinfo,3,1,2
+20,None,Le Figaro,2025-05-25 20:30,Fake News,48.6,Oui,,,1,1,0
+21,Gaza : l'Espagne convoque des pays européens et ar...,FRANCE 24,2025-05-25 20:29,Douteux,25.2,Non,Faux,dpa-factchecking,16,0,5
+22,Roland-Garros: Halys retrouve le succès 9 ans aprè...,FRANCE 24,2025-05-25 20:29,Fake News,12.4,Oui,Faux,AFP Factuel,0,0,0
+23,"Avec les adieux de Rafael Nadal, Roland-Garros ent...",Le Monde,2025-05-25 20:00,Fake News,13.7,Oui,Faux,20 Minutes,28,0,1
+11,None,La Voix du Nord,2025-05-25 19:56,Fake News,17.2,Oui,,,0,0,0
+12,«Vous m’avez fait me sentir comme un Français de p...,Libération,2025-05-25 19:54,Douteux,48.7,Oui,C’est plus compliqué,Franceinfo,16,0,0
+13,La droite revendique la victoire à la législative ...,Le HuffPost,2025-05-25 19:48,Peu fiable,21.0,Non,Faux,TF1 Info,1,2,1
+14,Droits de douane : le mépris de Donald Trump entac...,Libération,2025-05-25 19:42,Fake News,12.4,Oui,Faux,RTBF,7,1,5
+24,Euroligue de basket : Monaco s'incline en finale f...,FRANCE 24,2025-05-25 19:22,Fake News,13.6,Oui,Faux,AFP Factuel,2,0,0
+15,Gaza : des experts répertorient le patrimoine pour...,Libération,2025-05-25 19:19,Fake News,12.2,Oui,Faux,Franceinfo,38,1,20
+16,None,Le Parisien,2025-05-25 19:19,Fake News,40.5,Oui,,,1,0,0
+17,Faut-il s’inquiéter pour le marché du vélo ?,La Voix du Nord,2025-05-25 19:12,Fake News,12.3,Oui,Faux,AFP Factuel,1,0,1
+18,None,l'Humanité,2025-05-25 19:00,Fake News,18.3,Oui,,,117,0,74
+19,Législative partielle en Saône-et-Loire : le candi...,Le Monde,2025-05-25 19:00,Fake News,13.6,Non,Faux,Franceinfo,5,1,1
+1,"En Allemagne, Friedrich Merz promet « l’armée la p...",Le Monde,2025-05-15 07:33,Peu fiable,11.4,Non,Faux,TF1 Info,2,0,0
+2,None,La Croix,2025-05-15 07:30,Fake News,25.6,Oui,,,1,0,1
+3,None,Le Figaro,2025-05-15 07:30,Fake News,42.6,Oui,,,0,0,0
+4,François Bayrou auditionné à l’Assemblée : après t...,Mediapart,2025-05-15 07:29,Douteux,48.6,Non,C’est plus compliqué,Franceinfo,21,1,11
+5,Fraude au compteur Linky : un ancien salarié d’Ene...,Libération,2025-05-15 07:21,Fake News,11.2,Oui,Faux,TF1 Info,5,2,0
+6,None,Le Parisien,2025-05-15 07:07,Fake News,40.9,Oui,,,2,1,2
+7,None,La Croix,2025-05-15 07:06,Douteux,25.3,Non,,,5,0,2
+8,None,L'Informé,2025-05-15 07:02,Fake News,22.0,Oui,,,2,0,1
+9,Affaire Bétharram : François Bayrou envisage la cr...,Libération,2025-05-15 07:01,Douteux,49.5,Oui,C’est plus compliqué,Franceinfo,4,1,1
+10,Volodymyr Zelensky n’est pas sûr de participer aux...,Le HuffPost,2025-05-15 07:01,Fake News,9.7,Oui,Faux,20 Minutes,2,0,0
