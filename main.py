@@ -11,6 +11,7 @@ from model_analysis.fake_news_detection.fake_news_detection_roberta import (
     generate_synthetic_report,
     fix_existing_inconsistencies
 )
+from facts_checks_sources.get_fact_checking_datas import get_fact_checking_data
 
 # Charger les variables d'environnement
 dotenv.load_dotenv()
@@ -31,7 +32,7 @@ print(f"Public feed URI for French press: {public_feed_uri}")
 try:
     response = client.app.bsky.feed.get_feed({
         "feed": public_feed_uri,
-        "limit": 10
+        "limit": 2
     })
     feed = response.feed
     print(f"Number of posts retrieved: {len(feed)}")
@@ -122,8 +123,8 @@ try:
     print("Fonctionnalités: Classification, Détection fake news, Utilisation des fact-checks existants")
     
     # Message d'information sur la complémentarité
-    print("\n💡 Ce script utilise les fact-checks déjà collectés par get_fact_checking_datas.py")
-    print("   Assurez-vous d'avoir exécuté get_fact_checking_datas.py au préalable.")
+    print("\n💡 Exécution du script get_fact_checking_datas")
+    get_fact_checking_data()
     
     # Corriger les incohérences existantes
     fix_existing_inconsistencies()
