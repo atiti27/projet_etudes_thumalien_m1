@@ -10,6 +10,13 @@ Ce guide utilisateur vous accompagnera tout au long du projet, en fournissant de
 
 ## Guide d'utilisation de la solution technologique
 
+### Prérequis
+
+-	Assurer vous d’avoir une version de Python 3.12, car la version 3.13 ou ultérieure ne supporte pas spaCy.
+-	Avoir un compte Bluesky
+-	Avoir installé PostgreSQL
+-	Avoir la version Power BI Desktop
+
 ### Installation
 
 Pour récupérer le repository du projet, lancez cette commande dans votre terminal:
@@ -68,5 +75,7 @@ Avant cela, il faut configurer votre connexion à votre base de données.
 - Un affichage avec l'ensemble des tables est montré, sélectionner l'ensemble des tables et cliquer sur le bouton **Charger**.
 
 ![Chargement des données](resources/image4.png)
+
+- Si vous avez chargé les données entre temps, il faut mettre à jour les données afin de recharger les visualisations. Sous l’onglet Accueil, dans Requêtes, cliquer sur **Actualiser**
 
 ![Actualisation des données](image5.png)
