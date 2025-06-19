@@ -68,3 +68,5 @@ Avant cela, il faut configurer votre connexion à votre base de données.
 - Un affichage avec l'ensemble des tables est montré, sélectionner l'ensemble des tables et cliquer sur le bouton **Charger**.
 
 ![Chargement des données](resources/image4.png)
+
+![Actualisation des données](image5.png)
